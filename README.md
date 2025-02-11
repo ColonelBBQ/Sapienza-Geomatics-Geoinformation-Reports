@@ -13,6 +13,8 @@ Simply follow the link attached for each project and Run the Script!
 
 Link: https://code.earthengine.google.com/d17a77cfd678c0555ca32655eb3cc02e
 
+Script in Github: RandomForest_Exercise.js
+
 This project classifies land cover types (e.g., vegetation, water, urban areas) using Sentinel-2 imagery and the Random Forest machine learning algorithm for the Coral Sea
 off the coast of Queensland, Australia.
 
@@ -38,6 +40,8 @@ Map.addLayer(classified, {min: 0, max: 4, palette: ['green', 'blue', 'gray', 'ye
 
 Link: https://code.earthengine.google.com/d8f81d1a0b76995b271000ce18a541b2
 
+Script in Github: SVM_Exercise.js
+
 This project identifies urban areas using Support Vector Machines (SVM) applied to Sentinel-2 imagery again using Lake Titicaca as our example.
 
 ✅ Extract spectral indices for urban detection (e.g., NDBI - Normalized Difference Built-up Index)
@@ -57,6 +61,8 @@ Map.addLayer(classified, {min: 0, max: 1, palette: ['gray', 'red']}, 'Urban Area
 ### Project 1.3: Unsupervised Land Classification Using K-Means
 
 Link: https://code.earthengine.google.com/ca0f7321843f193f25a9371d3a89d20c
+
+Script in Github: KMeans_Exercise.js
 
 This project explores unsupervised classification using K-Means clustering for land cover segmentation in the Rome Area
 
