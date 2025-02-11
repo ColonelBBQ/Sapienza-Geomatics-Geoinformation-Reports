@@ -78,6 +78,7 @@ Map.addLayer(clustered.randomVisualizer(), {}, 'K-Means Clusters');
 ### **Project 2.1: Vegetation Health Assessment Using NDVI** 🌱  
 
 Link: https://code.earthengine.google.com/57dadacc97eb69de6405cf7b281aeaab
+
 Script in Github: NDWI_Exercise.js
 
 This project analyzes **vegetation health** in the are affected by the Bootleg fire to estimate damaage in vegetation by:  
@@ -102,6 +103,7 @@ Map.addLayer(NDVI, {min: -1, max: 1}, 'NDVI ROI');
 ### Project 2.2: Water Body Detection Using MNDWI 💧
 
 Link: https://code.earthengine.google.com/760fc9a9990192afa2f8261b23a6690b
+
 Script in Github: MNDWI_Exercise.js
 
 This project identifies the loss in water bodies in Lake Titicaca (Peru) in satellite images using Landsat 8 data and MNDWI. The steps include:
